@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754a97cc0e4c305468460d15be29efa3, type: 3}
+  m_Name: World4
+  m_EditorClassIdentifier: 
+  worldColor: {r: 0.82601416, g: 0.875, b: -0.012867659, a: 1}
+  number: 4
+  levelCount: 0
+  levelsNeeded: 1000
+  completeLevelsCount: 0
+  levelIsComplete: 
