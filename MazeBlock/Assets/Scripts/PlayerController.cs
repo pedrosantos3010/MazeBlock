@@ -7,9 +7,17 @@ public class PlayerController : BasicMovement
 
     void Start ()
     {
-        Vector3 startPosition = GameObject.FindGameObjectWithTag (MyTags.startLevel).transform.position;
-        startPosition.y = 1;
-        transform.position = startPosition;
+        try
+        {
+            Vector3 startPosition = GameObject.FindGameObjectWithTag(MyTags.startLevel).transform.position;
+            startPosition.y = 1;
+            transform.position = startPosition;
+        }
+        catch
+        {
+            
+        }
+
         SwipeController.OnSwipe += SwipeInput;
     }
 
